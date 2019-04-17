@@ -46,6 +46,17 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.44</version>
         </dependency>
+        <!--RabbitMQ maven 依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>4.0.2</version>
+        </dependency>
     </dependencies>
 
     <build>
